@@ -6,7 +6,6 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: kong
     konghq.com/plugins: global-cors, global-rate-limit
-    konghq.com/strip-path: "true"
 spec:
   rules:
     - http:
